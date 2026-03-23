@@ -1,0 +1,19 @@
+# --- LOGS E TEMPORÁRIOS DO XAMPP ---
+*.log
+/php/logs/
+.phpunit.result.cache
+
+# --- SEGURANÇA ---
+# Se você criar um arquivo .env para senhas no futuro
+.env
+
+# --- ARQUIVOS DE SISTEMA E IDE ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# --- BANCO DE DATA (OPCIONAL) ---
+# Se você quer que o arquivo .sql mude apenas quando você decidir, 
+# pode ignorar, mas para portfólio é bom deixar o .sql visível.
+# *.sql
